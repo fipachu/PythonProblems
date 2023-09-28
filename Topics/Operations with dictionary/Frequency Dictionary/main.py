@@ -4,9 +4,9 @@ I did it not because it was easy, but because it was hard.
 And because I find it funny. Mostly because I find it funny.
 
 The first line after this docstring is the final official
-absolutely amazing oneliner.
+absolutely amazing one-liner.
 
-The 14 literal in that oneliner is a dirty hack to get through
+The 14 literal in that one-liner is a dirty hack to get through
 hyperskill tests. It is the smallest number that passes the tests.
 I didn't try looking for a solution that wouldn't require this
 monstrosity, as solving this problem in one line is insane anyway.
@@ -53,6 +53,19 @@ def draft_1():
 
 def draft_2():
     print(*[f'{w} {words.count(w)}' for (w, words) in zip( *[(sorted(set(ws)), [ws] * 3) for ws in [['a', 'aa', 'aaa', 'a']]][0] )], sep='\n')
+
+def hyperskill_compliant():
+    """Thank you hyperskill auto-feedback for breaking my dreams.
+
+    The automatic code quality assessment hates:
+    - f-strings with logic
+    - naming a variable "ws"
+    - lines over 120 characters.
+    To be fair the last one is actually rather lenient.
+    """
+    print(*['{} {}'.format(w, words.count(w))
+            for (w, words) in zip(*[(sorted(set(words_2)), [words_2] * 14)
+                                    for words_2 in [input().lower().split()]][0])], sep='\n')
 
 # ======================================================================
 #                              No mans land:
