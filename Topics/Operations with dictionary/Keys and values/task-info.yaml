@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - <code>random_dict.keys()</code>
+  - <code>random_dict.values()</code>
+  - <code>random_dict.items()</code>
+  - Extra option
+options:
+  - "<code>[20, 40, 60, 80, 100]</code>"
+  - "<code>[('a', 20), ('b', 40), ('c', 60), ('d', 80), ('e', 100)]</code>"
+  - "<code>['a', 'b', 'c', 'd', 'e']</code>"
+  - "<code>['20', '40', '60', '80', '100']</code>"
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9013#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
