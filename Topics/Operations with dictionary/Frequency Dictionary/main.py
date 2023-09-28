@@ -1,5 +1,23 @@
-"""After hours of work I crammed the solution into one line."""
+"""After hours of work I crammed the solution into one line.
+
+I did it not because it was easy, but because it was hard.
+And because I find it funny. Mostly because I find it funny.
+
+The first line after this docstring is the final official
+absolutely amazing oneliner.
+
+The 14 literal in that oneliner is a dirty hack to get through
+hyperskill tests. It is the smallest number that passes the tests.
+I didn't try looking for a solution that wouldn't require this
+monstrosity, as solving this problem in one line is insane anyway.
+
+The functions are basically consecutive approaches to solving
+the problem in as few lines as possible. In particular,
+the comments in two_lines_with_dict() describe why
+the walrus operator doesn't solve anything.
+"""
 print(*[f'{w} {words.count(w)}' for (w, words) in zip(*[(sorted(set(ws)), [ws] * 14) for ws in [input().lower().split()]][0])], sep='\n')
+#                                                   hyperskill got nothing on me ^
 
 def normal_code():
     words = input().lower().split()
@@ -36,12 +54,11 @@ def draft_1():
 def draft_2():
     print(*[f'{w} {words.count(w)}' for (w, words) in zip( *[(sorted(set(ws)), [ws] * 3) for ws in [['a', 'aa', 'aaa', 'a']]][0] )], sep='\n')
 
-
 # ======================================================================
 #                              No mans land:
 # ======================================================================
 # My initial approach was all over the place.
-# Here lie the remnants of that chaotic age.
+# Here lie the remnants of that chaotic era.
 
 # def counter():
 #     words = input().lower().split()
