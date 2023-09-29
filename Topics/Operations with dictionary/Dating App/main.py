@@ -43,8 +43,6 @@ def extended_select(potential_dates: list[dict], /,
     """Return a string containing names of potential dates,
     separated by ', '.
 
-    SIDE NOTE: hyperskill unit test considers '/' in
-
     potential_dates is a list of dictionaries containing
     data of registered users.
 
