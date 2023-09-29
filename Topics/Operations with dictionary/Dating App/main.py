@@ -64,8 +64,7 @@ def extended_select(potential_dates: list[dict], /,
     the default value is None (any hobbies).
     """
     selected: list = [date['name'] for date in potential_dates
-                      if
-                      (age_range is None or date['age'] in range(*age_range))
+                      if (age_range is None or date['age'] in range(*age_range))
                       and (city is None or date['city'] == city)
                       and (hobbies is None or hobbies.issubset(date['hobbies']))
                       and (genders is None or date['gender'] in genders)]
