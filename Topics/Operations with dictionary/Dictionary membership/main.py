@@ -1,5 +1,5 @@
 sidekicks = {'Don Quixote': 'Sancho Panza', 'Batman': 'Robin', 'Holmes': 'Watson'}
-print('Sancho Panza' ... sidekicks)
-print('Batman' ... sidekicks)
-print('Han Solo' ... sidekicks)
-print('' ... sidekicks)
+print('Sancho Panza' not in sidekicks)
+print('Batman' in sidekicks)
+print('Han Solo' not in sidekicks)
+print('' not in sidekicks)
