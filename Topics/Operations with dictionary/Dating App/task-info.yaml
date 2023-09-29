@@ -14,10 +14,10 @@ feedback:
     Failed. Runtime error
 
     Error:
-      File "jailed_code", line 30
-        def extended_select(potential_dates: list[dict], /,
-                                                         ^
-    SyntaxError: invalid syntax
-  time: "Fri, 29 Sep 2023 14:14:24 UTC"
+    Traceback (most recent call last):
+      File "jailed_code", line 34, in <module>
+        hobbies: set[str] = None) -> str:
+    TypeError: 'type' object is not subscriptable
+  time: "Fri, 29 Sep 2023 14:23:00 UTC"
 record: -1
 submission_language: python3

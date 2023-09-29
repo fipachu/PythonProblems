@@ -1,5 +1,11 @@
 """I've decided to expand on this exercise.
 
+IMPORTANT: as of writing this (2023-09-29) hyperskill unit test
+    uses some older version of Python that doesn't have
+    things like positional only arguments and function parameter
+    annotations.
+    It causes this file to raise SyntaxError.
+
 Instead of a user writing a function for themselves, lets say
 the app developer wants a public API for users to select
 from the list by user-specified criteria.
@@ -18,12 +24,14 @@ DEFAULT_LIST = [{"name": "Julia", "gender": "female", "age": 29,
                 {"name": "John", "gender": "male", "age": 41,
                  "hobbies": ["reading", "alpinism", "museums"], "city": "Munich"}]
 
-def select_dates(potential_dates: list[dict]) -> str:
-    """Solve the hyperskill task."""
+
+def select_dates(potential_dates) -> str:
+    """Hyperskill task solution."""
     selected: list = [date['name'] for date in potential_dates
                       if date['age'] > 30
                       and date['city'] == 'Berlin'
                       and 'art' in date['hobbies']]
+
     return ', '.join(selected)
 
 
@@ -34,6 +42,8 @@ def extended_select(potential_dates: list[dict], /,
                     hobbies: set[str] = None) -> str:
     """Return a string containing names of potential dates,
     separated by ', '.
+
+    SIDE NOTE: hyperskill unit test considers '/' in
 
     potential_dates is a list of dictionaries containing
     data of registered users.
