@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "After the code is executed, Alien.places is empty"
+  - text: Printing Alien.planet will cause an error
+  - text: "After the code is executed, dalek.count = 3 "
+  - text: mart.places == dalek.places is True at every point of the code (where both
+      objects exist)
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6678#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,17 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: |-
+      class Sphere:
+          # finish class Sphere here
+          ...
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6683#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 06 Nov 2023 21:43:14 UTC"
+record: -1
+submission_language: python3

@@ -1,0 +1,17 @@
+<h2>Cities</h2>
+<div class="step-text">
+<p>What will be the value of <code class="language-python">City.all_cities</code> after we run the code below?</p>
+<pre><code class="language-python">class City:
+    all_cities = []
+
+    def __init__(self, name, year):
+        self.name = name
+        self.year = year
+
+ny = City("New York", 1624)
+ny.all_cities.append("New York")
+
+stockholm = City("Stockholm", 1187)
+stockholm.all_cities = ["Stockholm"]</code></pre>
+<p>The answer should be a list in the square brackets [], for example, <code class="language-python">["City", "Another City", "Third City"]</code>. Strings can be in single or double quotes, for example, <code class="language-python">["City"]</code> or <code class="language-python">['City']</code>.</p>
+</div>

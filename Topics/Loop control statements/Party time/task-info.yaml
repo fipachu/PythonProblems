@@ -5,4 +5,7 @@ files:
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/9147#comment
 status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 03 Nov 2023 21:16:56 UTC"
 record: -1
