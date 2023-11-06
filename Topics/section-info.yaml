@@ -3,3 +3,4 @@ content:
   - Context manager
   - Operations with dictionary
   - Class vs instance
+  - Function decorators

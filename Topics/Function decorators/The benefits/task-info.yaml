@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: They help extend functionality of other functions
+  - text: They make code more readable and clean
+  - text: They make code execution faster
+  - text: They help reuse other functions without the need to modify them
+  - text: They help avoid needless repetition
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15775#comment
+status: Solved
+record: -1
+local_check: false

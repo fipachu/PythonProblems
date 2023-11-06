@@ -1,0 +1,20 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: |-
+      def tagged():
+          ...
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10108#comment
+status: Solved
+feedback:
+  message: |-
+    <html>[+] Test #1. OK
+    [+] Test #2. OK
+
+    2 of 2 test(s) passed.</html>
+  time: "Mon, 06 Nov 2023 22:23:43 UTC"
+record: -1
+submission_language: python3

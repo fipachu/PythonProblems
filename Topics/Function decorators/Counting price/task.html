@@ -1,0 +1,8 @@
+<h2>Counting price</h2>
+<div class="step-text">
+<p></p><p>Below, we have written the decorator <code class="language-python">price_string</code>. The function takes another function with one parameter as its argument, converts its output to a string, and adds the pound sign to this string to represent the price of a product.</p><pre><code class="language-python">def price_string(func):
+    def wrapper(quantity):
+        return "£" + str(func(quantity))
+
+    return wrapper</code></pre><p>Your task is to:</p><ul><li><p>write the body of the function <code class="language-python">new_price</code> : it should take an argument and return a float value with a 10% discount</p></li><li><p>decorate the function with the decorator <code class="language-python">price_string</code></p></li></ul><p>For example, for the input value <code class="language-python">100</code>, the decorated function should return <code class="language-python">£90.0</code>.</p><p>You do not need to take any input, just write the body of the function and decorate it.</p><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 30 seconds</font><br><br>
+</div>
