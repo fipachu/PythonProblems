@@ -1,4 +1,4 @@
-def decipher(message, key):
+def decipher(message: bytes, key: int) -> str:
     deciphered_ints = (code_point + key for code_point in message)
     return bytes(deciphered_ints).decode()
 
