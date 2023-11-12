@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: They are values that the user is not supposed to enter.
+  - text: They are all possible user inputs.
+  - text: They are values that the user is asked to enter.
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10495#comment
+status: Solved
+record: -1
+local_check: false

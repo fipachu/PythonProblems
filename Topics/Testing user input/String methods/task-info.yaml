@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - <code>str.isalpha() </code>
+  - <code>str.isdigit() </code>
+  - <code>str.isalnum() </code>
+  - <code>str.isnumeric() </code>
+options:
+  - A string consists of digits.
+  - A string consists of digits or letters of any case
+  - A string consists of digits or characters that have features of Unicode digits.
+  - A string consists of letters of any case.
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10496#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

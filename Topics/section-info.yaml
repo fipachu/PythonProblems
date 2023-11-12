@@ -5,3 +5,4 @@ content:
   - Class vs instance
   - Function decorators
   - Creating bytes
+  - Testing user input
