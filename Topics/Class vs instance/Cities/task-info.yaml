@@ -10,7 +10,7 @@ files:
           length: 23
           offset: 0
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Solved
     text: type your solution here
     learner_created: false

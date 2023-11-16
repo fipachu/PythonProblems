@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: |-
+      def get_percentage():
+          pass
+    learner_created: false
+  - name: test_main.py
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/9516#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 16 Nov 2023 16:46:45 UTC"
+record: -1
+submission_language: python3
