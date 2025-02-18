@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Built-in dictionaries have always been ordered.
+  - text: You can use other powerful types instead of <code>OrderedDict</code>.
+  - text: " Starting from Python 3.7, built-in dictionaries preserve the order."
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15381#comment
+status: Solved
+record: -1
+custom_name: Is it really useless?
+local_check: false

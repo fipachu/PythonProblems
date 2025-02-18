@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "immutable, may be created only by using a constructor and its items are accessed\
+    \ by their indicators"
+  - text: "immutable, may be created from a list and its items are accessed both by\
+    \ their names or indexes"
+  - text: "mutable, may be created from a list and its items are accessed by their names"
+  - text: "mutable, may be created only by using a constructor and its items are accessed\
+    \ both by their names or indexes"
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10016#comment
+status: Solved
+record: -1
+local_check: false
